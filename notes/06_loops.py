@@ -16,7 +16,7 @@ while (happy == "No"):
     print("Oh no! Let's change that.")
     happy = input("Are you happy now? (Yes/No): ")
 
-# for loop - 
+# for loop - block of code 
 
 # ex 1
 for x in range(5,10):
@@ -28,3 +28,11 @@ days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
 for d in days:
     if(d == "Thu"):continue
     print(d)
+
+# nested loops = loop within another loop
+for i in range(0,5):
+    for j in range(0,5):
+        # end = : prevents from moving to next line
+        print("*", end="")
+    print()  
+    
