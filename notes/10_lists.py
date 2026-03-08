@@ -1,3 +1,5 @@
+# source: https://www.youtube.com/watch?v=gOMW_n2-2Mw
+
 # list[] = ordered and changeable. duplicates ok
 
 # define a list
@@ -23,4 +25,6 @@ fruits.reverse()    # reverse sorted list
 print(fruits.count("banana")) # count instances of value
 print(fruits.index("pineapple")) # returns index of specified value
 fruits.pop() # removes the last value
+
+
 
