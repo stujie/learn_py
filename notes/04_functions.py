@@ -44,3 +44,7 @@ def next_decade(year):
 # call
 ten_years_from_now = next_decade(2026)
 print("In 10 years it will be the year of " + str(ten_years_from_now))
+
+# nested function calls = function calls inside other function calls. the returned value of the inner most function call is the argument for the next outer function
+
+print(round(abs(float(input("Enter a negative decimal number: ")))))
