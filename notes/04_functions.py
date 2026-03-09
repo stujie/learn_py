@@ -38,6 +38,7 @@ grade_calculator(73, "Juliet")
 
 # function w/ return values
 def next_decade(year):
+    # local variable (scope only inside this function)
     next_dec = year + 10
     return next_dec
 
